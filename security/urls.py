@@ -10,4 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^signup$', 'securityapp.views.signup', name='signup'),
+    url(r'^secret$', 'securityapp.views.special_page', name='secret'),
+
 )
