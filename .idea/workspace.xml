@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df647d-d023-4e26-a845-73c71d49c3b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/settings.py" afterPath="$PROJECT_DIR$/security/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/urls.py" afterPath="$PROJECT_DIR$/security/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securityapp/views.py" afterPath="$PROJECT_DIR$/securityapp/views.py" />
     </list>
     <ignored path="security.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="8" column="49" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securityapp/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.35190615" vertical-offset="0" max-vertical-offset="645">
+            <state line="22" column="22" selection-start="736" selection-end="736" vertical-scroll-proportion="-8.75" vertical-offset="120" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -101,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/securityapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="690">
+            <state line="44" column="46" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.91780823" vertical-offset="325" max-vertical-offset="750">
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -139,10 +139,10 @@
         <option value="$PROJECT_DIR$/securityapp/templates/special.html" />
         <option value="$PROJECT_DIR$/securityapp/forms.py" />
         <option value="$PROJECT_DIR$/securityapp/templates/login.html" />
-        <option value="$PROJECT_DIR$/securityapp/views.py" />
         <option value="$PROJECT_DIR$/security/settings.py" />
-        <option value="$PROJECT_DIR$/security/urls.py" />
         <option value="$PROJECT_DIR$/securityapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/security/urls.py" />
+        <option value="$PROJECT_DIR$/securityapp/views.py" />
       </list>
     </option>
   </component>
@@ -493,7 +493,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="28" width="1029" height="753" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3499246" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,28 +598,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/securityapp/views.py">
+    <entry file="file://$PROJECT_DIR$/securityapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="690">
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
+        <state line="22" column="22" selection-start="736" selection-end="736" vertical-scroll-proportion="-8.75" vertical-offset="120" max-vertical-offset="645">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="8" column="49" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/securityapp/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/securityapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.35190615" vertical-offset="0" max-vertical-offset="645">
-          <folding />
+        <state line="44" column="46" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.91780823" vertical-offset="325" max-vertical-offset="750">
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

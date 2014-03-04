@@ -38,3 +38,8 @@ def login_page(request):
         form = LoginForm()
     data = {"form": form}
     return render(request, "login.html", data)
+
+
+def index(request):
+    data = {}
+    return render(request, 'index.html', data)
