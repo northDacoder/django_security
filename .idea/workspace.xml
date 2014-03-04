@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df647d-d023-4e26-a845-73c71d49c3b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/settings.py" afterPath="$PROJECT_DIR$/security/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/urls.py" afterPath="$PROJECT_DIR$/security/urls.py" />
     </list>
     <ignored path="security.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/security/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.5865922" vertical-offset="75" max-vertical-offset="735">
+            <state line="22" column="40" selection-start="853" selection-end="853" vertical-scroll-proportion="0.5671233" vertical-offset="123" max-vertical-offset="735">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -503,10 +502,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="28" width="1029" height="753" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11312217" sideWeight="0.49949342" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25339368" sideWeight="0.49949342" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -515,7 +514,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3499246" sideWeight="0.5005066" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37254903" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37254903" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -633,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/security/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.5865922" vertical-offset="75" max-vertical-offset="735">
+        <state line="22" column="40" selection-start="853" selection-end="853" vertical-scroll-proportion="0.5671233" vertical-offset="123" max-vertical-offset="735">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
