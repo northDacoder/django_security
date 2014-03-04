@@ -23,3 +23,5 @@ class SignupForm(UserForm):
                 "Password confirmation does not match password"
             )
         return self.cleaned_data
+
+
