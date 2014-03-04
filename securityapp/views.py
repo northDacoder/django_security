@@ -25,7 +25,7 @@ def special_page(request):
     return render(request, "special.html", data)
 
 
-def login(request):
+def login_page(request):
     if request.method == "POST":
         form = LoginForm(request.POST)
         if form.is_valid():
@@ -36,5 +36,5 @@ def login(request):
                 return redirect("secret")
     else:
         form = LoginForm()
-    data = {"login_form": form}
+    data = {"form": form}
     return render(request, "login.html", data)
