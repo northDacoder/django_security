@@ -26,10 +26,15 @@ def special_page(request):
 
 
 def login(request):
-    user = authenticate(username=username, password=password)
-    if user is not None:
-        if user.is_active:
-            login(request, user)
-            # redirect to a success page
-        else:
-            form1 = LoginForm()
+    if request.method == "POST":
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            user = authenticate(username=form.cleaned_data['username'],
+                                password=form.cleaned_data['password'])
+            if user is not None:
+                login(request, user)
+                return redirect("secret")
+    else:
+        form = LoginForm()
+    data = {"login_form": form}
+    return render(request, "login.html", data)

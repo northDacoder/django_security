@@ -26,8 +26,7 @@ class SignupForm(UserForm):
         return self.cleaned_data
 
 
-class LoginForm(UserForm):
+class LoginForm(forms.Form):
     username = forms.CharField()
-    password = forms.CharField(
-        widget = forms.PasswordInput
-    )
+    password = forms.CharField()
+
