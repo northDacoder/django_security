@@ -8,7 +8,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'security.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^userform/$', 'security.views.UserForm', name='userform'),
-    url(r'^signupform/$', 'security.views.SignupForm', name='signupform'),
+    url(r'^signup/', 'securityapp.views.signup', name='signup'),
 )
