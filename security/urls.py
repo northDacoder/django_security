@@ -6,7 +6,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'users.views.index', name='index'),
+    url(r'^$', 'securityapp.views.index', name='index'),
     url(r'^secret/$', 'securityapp.views.special_page', name='secret'),
     url(r'^accounts/', include('registration.backends.default.urls')),
 
