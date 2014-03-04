@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
+from django.forms import ModelForm
 
 
 class UserForm(forms.ModelForm):
@@ -25,3 +26,8 @@ class SignupForm(UserForm):
         return self.cleaned_data
 
 
+class LoginForm(UserForm):
+    username = forms.CharField()
+    password = forms.CharField(
+        widget = forms.PasswordInput
+    )

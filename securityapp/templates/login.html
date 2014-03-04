@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<form method="POST">
+    {% csrf_token %}
+
+    {% for fields in form1 %}
+        <h1>{{ fields.label }}</h1>
+        <h1>{{ fields }}</h1>
+        <h1>{{ fields.errors }}</h1>
+    {% endfor %}
+
+    <input type="submit" value="signup" />
+</form>
+
+</body>
+</html>
